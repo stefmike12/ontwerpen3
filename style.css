@@ -1,0 +1,395 @@
+* {
+margin: 0px !important;
+padding: 0px;
+/* outline: none!important;
+border: none!important; */
+}
+
+body {
+    background-image: url(images/elon_young.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    height: 100vh;
+    transition: 250ms;
+}
+
+.logo {height: 40px;
+    position: fixed;
+    margin: 2rem 4rem !important;
+}
+
+.button_play {
+        	color: inherit;
+        	border: none;
+        	font: inherit;
+        	cursor: pointer;
+            outline: inherit;
+            background-image: url(/images/play.png) !important;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 20px !important;
+            height: 20px !important;
+            background-color: transparent !important;
+}
+
+.button_pause {
+    color: inherit;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    background-image: url(/images/pause.png) !important;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px !important;
+    height: 20px !important;
+    background-color: transparent !important;
+}
+
+.button_div, .button_div_2, .button_div_3, .button_div_4, .button_div_5, .button_div_6 {
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+    background: none !important;
+}
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 4rem !important;
+    margin-left: 2rem !important;
+    
+}
+
+body.bg1 {
+    background-image: url(images/elon_young.png);
+    
+}
+
+body.bg2 {
+    background-image: url(images/elon_verbeelding.jpg);
+}
+
+body.bg3 {
+    background-image: url(images/elon_software.png);
+}
+
+body.bg4 {
+    background-image: url(images/elon_zonde.jpg);
+}
+
+body.bg5 {
+    background-image: url(images/elon_denk.jpg);
+}
+
+body.bg6 {
+    background-image: url(images/elon4.jpg);
+}
+
+.card {
+    background: none;
+    outline: none;
+    border: none !important;
+}
+
+article.intro {
+    flex: 1 1 auto;
+    position: static;
+}
+
+article.content {
+    width: 35rem;
+    overflow: auto;
+    min-height: 0;
+    display:flex;
+    flex-direction: column;
+    overflow: auto;
+    /* background: white; */
+}
+
+
+.card-header {
+    height: calc(100vh / 6);
+    display: flex;
+    direction: row;
+    /* margin: 0!important; */
+    /* background: red; */
+    padding: 0;
+        outline: none !important;
+        border: none !important;
+}
+.card-header > div {
+    width: 3rem;
+    background: black;
+    color: white;
+}
+
+#accordionExample>div:nth-child(even)>div.card-header {
+    /* flex-direction: row-reverse; */
+    /* background: blue; */
+}
+
+.card-header > h2 {
+    flex: 1 1 auto;
+
+    /* background:; */
+}
+#headingOne,
+#headingThree,
+#headingFive {
+    background: rgba(0, 0, 0, 0.80) !important;
+}
+
+#headingTwo, #headingFour, #headingSix > h2{ 
+    background: rgba(0, 0, 0, 0.7) !important;
+}
+.white {
+    background: rgba(0, 0, 0, 0) !important;
+}
+
+.white-transparant {
+    background: transparent !important;
+}
+
+.card-body {
+    padding: 0rem 2rem 3rem 2rem !important;
+    background: rgba(0, 0, 0, 0.95) !important;
+}
+
+.par-content-odd .card-body {
+    padding: 0rem 2rem;
+    background: rgba(0, 0, 0, 0.80) !important;
+}
+
+.par-content-even .card-body{
+    padding: 0rem 2rem;
+    background: rgba(0, 0, 0, 0.7) !important;
+}
+
+.par-content-odd {
+    display: flex;
+    flex-direction: row;
+}
+
+.par-content-even {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.par-content-odd > .empty {
+    min-width: 48px;
+    width: 48px;
+}
+
+.par-content-even > .empty {
+    min-width: 48px;
+    width: 48px;
+}
+
+h1 {
+    font-family: 'avenir next condensed';
+    font-weight: 700;
+    Montserrat-Bold;
+    font-size: 5rem;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    line-height: 79px;
+    text-transform: uppercase;
+    max-width: 752px;
+    margin: 6rem 2rem 1rem 4rem;
+}
+
+h2 {
+
+    font-family: Avenir-Black;
+    font-size: 24px;
+    color: white;
+    letter-spacing: -0.41px;
+    text-transform: uppercase;
+    padding: 10px 20px 6px 20px;
+    display: flex;
+    
+}
+
+.mb-0 {
+    margin: auto !important;
+}
+
+.btn-link {
+    font-family: 'Avenir next condensed';
+    font-size: 1.5rem;
+    color: rgb(255, 250, 219);
+    ;
+    letter-spacing: -0.41px;
+    text-transform: uppercase;
+}
+
+.btn-link:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+.btn .btn-link .collapsed:focus {
+    color: black;
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+.btn {
+    text-decoration: none !important;
+    border: none !important;
+    text-align: left;
+}
+
+
+h3 {
+    font-family: 'Avenir next condensed' !important;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 0;
+    line-height: 27px;
+    max-width: 40rem;
+    margin: 0rem 4rem;
+    /* background: rgb(255, 187, 0); */
+    padding: 2rem 1rem;
+}
+
+h3 > div {
+    border-left: 3px solid white;
+    padding-left: 2rem;
+}
+
+p {
+
+    font-family: marion, athelas, serif;
+    font-size: 18px;
+    color: rgb(255, 250, 219);
+    letter-spacing: 0;
+    line-height: 30px;
+    padding: 10px 20px;
+
+}
+
+h4 {
+    /* padding-top: 8px; */
+    font-family: sans;
+    /* writing-mode: vertical-rl; */
+    text-orientation: mixed;
+    /* transform: rotate(-90deg); */
+    text-transform: uppercase;
+    font-size: 2rem;
+    /* color: rgb(255, 196, 0); */
+
+}
+
+h5 {
+    /* padding-top: 8px; */
+    font-family: sans;
+    /* writing-mode: vertical-rl; */
+    text-orientation: mixed;
+    text-transform: uppercase;
+    font-size: 2rem;
+        /* color: rgb(255, 196, 0); */
+
+}
+
+.hoofdstuk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none !important;
+}
+
+@media only screen and (max-width: 900px)
+{
+    body {
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            background-attachment: fixed;
+            width: 100vw;
+            min-height: 100vh;
+    }
+
+    .intro {
+        justify-content: bottom !important;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    article.content {
+        width: 100vw;
+        justify-content: flex-end;
+    }
+
+    .card-header {
+        height: 5rem;
+    }
+
+    h1 {
+        font-size: 2em;
+        line-height: 40px;
+        margin: 10rem 1rem 1rem 2rem !important;
+    }
+
+    h3 {
+        font-size: 1em;
+        margin: 0rem 1rem;
+        margin-bottom: 3rem !important;
+        background: none;
+        color: white;
+        text-shadow: 0px  0px 10px black;
+        /* text-shadow: 2px 2px 10px black;
+        text-shadow: 2px 2px 5px black;
+        text-shadow: 2px 2px 7px black; */
+    }
+
+    h3>div {
+        border-left: 3px solid white;
+        padding-left: 1rem;
+    }
+
+    .btn {
+        font-size: 14px !important;
+    }
+    .empty {
+        display: none;
+    }
+
+    .hoofdstuk {
+        display: none;
+    }
+
+}
+
+
+/* -------------- video in text ----------------*/
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 92%;
+}
